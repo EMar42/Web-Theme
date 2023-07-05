@@ -105,15 +105,16 @@ apiRunnerAsync(`onClientEntry`).then(() => {
       }
     })
 
-  // /**
-  //  * Service Workers are persistent by nature. They stick around,
-  //  * serving a cached version of the site if they aren't removed.
-  //  * This is especially frustrating when you need to test the
-  //  * production build on your local machine.
-  //  *
-  //  * Let's warn if we find service workers in development.
-  //  */
+  /**
+   * Service Workers are persistent by nature. They stick around,
+   * serving a cached version of the site if they aren't removed.
+   * This is especially frustrating when you need to test the
+   * production build on your local machine.
+   *
+   * Let's warn if we find service workers in development.
+   */
   // if (`serviceWorker` in navigator) {
+  //   return {skipEnvCheck:true}
   //   navigator.serviceWorker.getRegistrations().then(registrations => {
   //     if (registrations.length > 0)
   //       console.warn(
