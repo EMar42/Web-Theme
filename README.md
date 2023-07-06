@@ -27,11 +27,12 @@ If you created something awesome and want to contribute then feel free to open a
 
 ## How To Use 
 
-From your command line, clone and run react-portfolio-template:
+From your command line, clone and run react app as provided.
+You can always check for ```package.json``` for all scripts.
 
 ```bash
 # Clone this repository
-
+https://github.com/EMar42/Web-Theme.git
 
 # Go into the repository
 $ cd /cooltheme
@@ -39,7 +40,7 @@ $ cd /cooltheme
 # Install dependencies
 $ npm build
 
-#Start's development server
+# Start development server
 $ npm build 
 OR
 $ gatsby develop
@@ -48,7 +49,7 @@ $ gatsby develop
 ## Deployment
 
 #### Deploying to Netlify
-
+https://netlify.com/
 You could also host directly with Netlify by linking your own repository.
 
 
