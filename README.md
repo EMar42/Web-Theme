@@ -1,10 +1,11 @@
 
 # Cooltheme 
-
+![image](https://github.com/EMar42/Web-Theme/assets/36295473/0e27ff4a-c382-4932-8ba3-f9ee2f90d666)
+<a href="https://cooltheme.netlify.app/">Live Demo!</a>
 ## A cool theme for free use 💸.
 ### React + Tailwind = ❤️
 
-<a href="https://cooltheme.netlify.app/">Live Demo!</a>
+
 
 Feel free to use it as-is or customize it as much as you want.
 If you created something awesome and want to contribute then feel free to open an : ""
